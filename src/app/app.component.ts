@@ -1,13 +1,27 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'anfeespicv';
+export class AppComponent implements OnInit {
+  title = 'Portfolio';
+
+  constructor(
+    private titleService: Title,
+    private metaService: Meta,
+  ) { }
+
+  ngOnInit(): void {
+    this.titleService.setTitle("Andrés Espitia | Backend Developer");
+    this.metaService.addTags([
+      { name: 'keywords', content: 'Web, software, developer' },
+      { name: 'description', content: 'As a software engineer with expertise in Backend, I have a comprehensive understanding of backend web development. My strong foundation in Java language allows me to effectively work with back-end technologies such as Spring.' },
+    ]);
+
+    AOS.init();
+  }
 }

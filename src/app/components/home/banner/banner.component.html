@@ -1,0 +1,28 @@
+<section class="section banner" id="banner">
+    <div [@bannerTrigger] class="container">
+        <div class="section-box-banner">
+            <div class="content">
+                <div>
+                    <!-- <h1>Hola, mi nombre es</h1> -->
+                    <h1>Hello! My name is</h1>
+                </div>
+                <div class='banner-title'>
+                    <h2 class="text-capitalize">Andrés Espitia.</h2>
+                    <h3 class="text-capitalize">Backend developer</h3>
+                </div>
+                <div class='banner-description'>
+                    <p class="mt-4">I'm a <span class="underline"> Systems Engineering </span> student about with a Technical Industrial Bachelor's degree in
+                        <span class="underline"> Systems and Computing </span> and extensive experience in competitive programming. I have a broad knowledge
+                        of <span class="underline"> Java, C++, Spring and Angular</span>, i also have knowledge of data structures and logical
+                        development with emphasis on <span class="underline">Backend</span>, with experience working in Scrum Methodology.
+                    </p>
+                </div>
+            </div>
+            <div class="div-btn-banner">
+                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:andres.espitia.afer@gmail.com" target="_black" class="main-btn text-capitalize">
+                    get in touch
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
