@@ -25,6 +25,13 @@
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem>
+              <a (click)="redirectToCalc()">
+                <span class='nav-number'>06. </span>
+                <span class="underline nav-text" >Calculator</span>
+              </a>
+              <ng-template ngbNavContent>Second content</ng-template>
+            </li>
+            <li ngbNavItem>
                 <a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
                     C.V
                 </a>

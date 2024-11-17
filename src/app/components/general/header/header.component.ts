@@ -69,4 +69,9 @@ export class HeaderComponent implements OnInit {
   changeLanguage(language: string) {
     this.languageFormControl.setValue(language);
   }
+
+  redirectToCalc() {
+    // Cambia 'assets/static.html' por la ruta real de tu página.
+    window.location.href = '/assets/index.html';
+  }
 }

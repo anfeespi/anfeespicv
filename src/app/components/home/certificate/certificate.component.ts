@@ -30,6 +30,11 @@ export class CertificateComponent implements OnInit {
       image: '../../../../assets/images/certificates/2023-Honorable.png'
     },
     {
+      Title: 'Certificate of participation ICPC Colombia 2024',
+      Organization: ['ICPC'],
+      image: '../../../../assets/images/certificates/2024-Honorable.png'
+    },
+    {
       Title: 'Certificate of participation Google Kickstart',
       Organization: ['Google'],
       image: '../../../../assets/images/certificates/Kickstart2022.png'

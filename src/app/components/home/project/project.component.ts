@@ -11,6 +11,18 @@ export class ProjectComponent implements OnInit {
   Projects = [
     {
       imgs: [
+        '../../../../assets/images/puretouch/1.png',
+        '../../../../assets/images/puretouch/2.png',
+        '../../../../assets/images/puretouch/3.png',
+        '../../../../assets/images/puretouch/4.png'
+      ],
+      Title: 'Pure Touch',
+      Description: 'During a Hackathon we need to preserve the good habits of washing hands, so we develop an application that follows up all the proccess, using AI to identify the hands and its movements.',
+      Technologies: ['JavaScript', 'React', 'TensorFlow', 'Figma'],
+      ghLink: 'https://github.com/anfeespi/PureTouch'
+    },
+    {
+      imgs: [
         '../../../../assets/images/forestbet/1.png',
         '../../../../assets/images/forestbet/2.png',
         '../../../../assets/images/forestbet/3.png',
@@ -53,7 +65,7 @@ export class ProjectComponent implements OnInit {
       Description: 'A Java application that uses persistence through serialized or binary files, that allows to play 4 online Transformers themed games, having support for 2 languages and light and dark themes, as well as handling property files.',
       Technologies: ['Java', 'Persistence', 'Properties', 'MVC', 'Figma', 'Java Swing'],
       ghLink: 'https://github.com/anfeespi/myRepository/tree/main/MyProjects/ConnectFour'
-    },
+    }
   ]
   customOptions: OwlOptions = {
     loop: true,
