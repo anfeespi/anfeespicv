@@ -10,19 +10,29 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class CertificateComponent implements OnInit {
   certificates = [
     {
-      Title: 'Java OOP Fundamentals certificate of Oracle Next Education',
+      Title: 'Certified Backend Developer - Java & Spring Framework',
       Organization: ['Alura Latam + Oracle'],
-      image: '../../../../assets/images/certificates/OraclePOOFundamentals.png'
+      image: '../../../../assets/images/certificates/OracleBackend.png'
     },
     {
-      Title: 'Java OOP certificate of Oracle Next Education',
-      Organization: ['Alura Latam + Oracle'],
-      image: '../../../../assets/images/certificates/OraclePOO.png'
+      Title: 'Google Cybersecurity Foundations',
+      Organization: ['Coursera + Google'],
+      image: '../../../../assets/images/certificates/GoogleCybersecurityFoundations.png'
     },
     {
-      Title: 'Certificate of participation ICPC Colombia 2022',
+      Title: 'Google Prompting Essentials',
+      Organization: ['Coursera + Google'],
+      image: '../../../../assets/images/certificates/GooglePromptingEssentials.png'
+    },
+    {
+      Title: 'Certificate of participation ICPC Colombia 2025 - 35th Place',
       Organization: ['ICPC'],
-      image: '../../../../assets/images/certificates/2022-Honorable.png'
+      image: '../../../../assets/images/certificates/2025-Place.png'
+    },
+    {
+      Title: 'Certificate of participation ICPC Colombia 2024',
+      Organization: ['ICPC'],
+      image: '../../../../assets/images/certificates/2024-Honorable.png'
     },
     {
       Title: 'Certificate of participation ICPC Colombia 2023',
@@ -30,9 +40,9 @@ export class CertificateComponent implements OnInit {
       image: '../../../../assets/images/certificates/2023-Honorable.png'
     },
     {
-      Title: 'Certificate of participation ICPC Colombia 2024',
+      Title: 'Certificate of participation ICPC Colombia 2022',
       Organization: ['ICPC'],
-      image: '../../../../assets/images/certificates/2024-Honorable.png'
+      image: '../../../../assets/images/certificates/2022-Honorable.png'
     },
     {
       Title: 'Certificate of participation Google Kickstart',
